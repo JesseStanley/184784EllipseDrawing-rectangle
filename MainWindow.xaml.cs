@@ -1,4 +1,8 @@
-﻿using System;
+/*Jesse Stanley
+3/22/2019
+ellipse and rectangle
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,7 +45,7 @@ namespace _184784llipsedrawing
                     }
                     canvas.Children.Add(e);
                     Canvas.SetTop(e, 480 -(e.Width / 2));
-                    Canvas.SetLeft(e, 480 -(e.Width / 2));
+                    Canvas.SetLeft(e, 480 -(e.Width / 2)); //get rid of these two bottom lines for the rectangle 
             }
         }
     }
